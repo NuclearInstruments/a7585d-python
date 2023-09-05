@@ -1,6 +1,6 @@
 import serial
 import time
-class A7585D_REG(object):
+class A7585D_REG:
     HV_ENABLE = 0
     CNTRL_MODE = 1
     V_TARGET = 2
@@ -43,7 +43,7 @@ class A7585D_REG(object):
     HW_VERSION=253
     SERIAL_NUMBER=254
 
-class A7585D(object):
+class A7585D:
     def __init__(self):
         self.ser=None
 

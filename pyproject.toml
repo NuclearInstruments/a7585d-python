@@ -3,8 +3,8 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "a7584d"
-version = "0.0.1"
+name = "a7585d"
+version = "1.0.1"
 authors = [
   { name="Andrea Abba", email="abba@nuclearinstruments.eu" },
 ]
@@ -18,9 +18,8 @@ classifiers = [
 ]
 keywords = ["A7585D", "SiPM bias", "HV", "Nuclear Instruments", "CAEN"]
 dependencies = [
-    "serial",
-    "time"
+    "pyserial"
 ]
 [project.urls]
 "Homepage" = "https://github.com/NuclearInstruments/a7585d-python"
-"Bug Tracker" = "https://github.com/NuclearInstruments/SCISDK/a7585d-python"
+"Bug Tracker" = "https://github.com/NuclearInstruments/a7585d-python"

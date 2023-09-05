@@ -1,5 +1,5 @@
-from a7585d import A7585D 
-from a7585d import A7585D_REG
+from a7585d.a7585d import A7585D 
+from a7585d.a7585d import A7585D_REG
 import time
 
 
@@ -20,10 +20,10 @@ hv.open("COM3") # Windows
 hv.set_parameter(A7585D_REG.CNTRL_MODE, 0)  
 
 # set voltage target to 40V
-hv.set_parameter(A7585D_REG.V_TARGET, 40)
+hv.set_parameter(A7585D_REG.V_TARGET, 42.5)
 
 # set max voltage 1mA
-hv.set_parameter(A7585D_REG.MAX_I, 1)
+hv.set_parameter(A7585D_REG.MAX_I, 4)
 
 # set max voltage (compliance) to 50V
 hv.set_parameter(A7585D_REG.MAX_V, 50)
@@ -45,7 +45,7 @@ hv.set_parameter(A7585D_REG.CURRENT_RANGE, 2)
 hv.set_parameter(A7585D_REG.ENABLE_PI, 0)
 
 # enable hv
-hv.set_parameter(A7585D_REG.HV_ENABLE,1)
+hv.set_parameter(A7585D_REG.HV_ENABLE,0)
 
 while True:
     print("HV V_OUT: " + str(hv.get_parameter(A7585D_REG.MON_VOUT)))

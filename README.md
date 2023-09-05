@@ -43,8 +43,8 @@ The user manual can be downloaded from the CAEN website:
 Import the library in your python script:
 
 ```python
-from a7585d import A7585D 
-from a7585d import A7585D_REG
+from a7585d.a7585d import A7585D 
+from a7585d.a7585d import A7585D_REG
 ```
 
 ### Create the A7585D object
