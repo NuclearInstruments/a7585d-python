@@ -1,4 +1,4 @@
-# CAEN - Nuclear Instruments A7585A/NIPM12 Python Control Library
+# CAEN - Nuclear Instruments A7585X/NIPM12 Python Control Library
 
 
 The NIPM-12 SiPM Power Module is a compact and integrated solution to provide stable and noiseless power supply for single and array / matrix SiPM detectors.
@@ -6,7 +6,7 @@ High resolution Output Voltage and Output Current measurements enable the NIPM-1
 Digital (UART, I2C and USB with adapter) and analog control interface are runtime selectable by a single pin or a digital command.
 The module integrates a temperature HV loop that regulates the SiPM output voltage as a programmable function of the SiPM temperature coefficient.
 
-This library is a python A7585A/NIPM12 module. It allows to control the module using the UART/USB interface. 
+This library is a python A7585X/NIPM12 module. It allows to control the module using the UART/USB interface. 
 
 ## Features
 - 20-85V Output Voltage
