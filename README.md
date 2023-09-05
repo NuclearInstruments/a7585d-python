@@ -33,6 +33,11 @@ pip install a7585d
 
 ## Usage
 
+### Module user manual
+
+The user manual can be downloaded from the CAEN website:
+[https://www.caen.it/products/a7585/](https://www.caen.it/products/a7585/)
+
 ### Import the library
 
 Import the library in your python script:
