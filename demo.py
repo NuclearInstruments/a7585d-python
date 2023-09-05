@@ -7,7 +7,7 @@ hv = A7585D()
 
 
 # open serial port
-hv.open("COM3") # Windows
+hv.open("COM4") # Windows
 # hv.open("/dev/ttyUSB0") # Linux USB
 # hv.open("/dev/ttyS0") # Linux UART
 
@@ -45,7 +45,7 @@ hv.set_parameter(A7585D_REG.CURRENT_RANGE, 2)
 hv.set_parameter(A7585D_REG.ENABLE_PI, 0)
 
 # enable hv
-hv.set_parameter(A7585D_REG.HV_ENABLE,0)
+hv.set_parameter(A7585D_REG.HV_ENABLE, 0)
 
 while True:
     print("HV V_OUT: " + str(hv.get_parameter(A7585D_REG.MON_VOUT)))
