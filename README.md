@@ -65,8 +65,8 @@ hv.open("COM3") # Windows
 Create the A7585D object and connect to the module serial port:
 
 ```python
-from a7585d import A7585D 
-from a7585d import A7585D_REG
+from a7585d.a7585d import A7585D 
+from a7585d.a7585d import A7585D_REG
 import time
 
 
